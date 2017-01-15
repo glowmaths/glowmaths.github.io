@@ -130,7 +130,7 @@ table,th,td{
     color:#ffffff;
     margin-top:12px;
 }
-.external{
+.external , .dropbox{
     display: flex;
     align-items: center;
     background-color:blue;
