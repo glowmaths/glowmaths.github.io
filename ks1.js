@@ -562,14 +562,14 @@ $(document).ready(function () {
         $(".external").children("h3").text($contents + "  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "https://www.dropbox.com/sh/taeg5o4vlpwggui/AABeJwmpazRKneIEuzCvi7x_a/Stage%206/St6_U13_Equations_WR.pdf?dl=0");
     });
-    $(".6_14").click(function () {
+    $(".6_15").click(function () {
         $("#themes").html("Explore area</br>Investigate volume</br>Solve problems involving area and volume");
         $("#key").html("Recognise that shapes with the same areas can have different perimeters and vice versa</br>Calculate the area of a parallelogram</br>Calculate the area of a triangle</br>Estimate the volume of cubes and cuboids</br>Calculate the volume of cuboid, including cubes</br>Recognise when it is possible to use formulae to calculate area and volume</br>Convert between metric units of area in simple cases</br>Convert between metric units of volume in simple cases");
         var $contents = $(this).text();
         $(".external").children("h3").text($contents + "  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "https://www.dropbox.com/sh/taeg5o4vlpwggui/AADGGJnCj5rRuxcRZ195ynhba/Stage%206/St6_U14_Calculating_Space_WR.pdf?dl=0");
     });
-    $(".6_15").click(function () {
+    $(".6_14").click(function () {
         $("#themes").html("Explore ways of approximating numbers</br>Explore ways of checking answers");
         $("#key").html("Approximate any number by rounding to a specified degree of accuracy; e.g. nearest 1, 10, 100, 1000, decimal place, etc</br>Understand estimating as the process of finding a rough value of an answer or calculation</br>Use estimation to predict the order of magnitude of the solution to a decimal calculation, including decimals</br>Check the order of magnitude of the solution to a calculation, including decimals");
         var $contents = $(this).text();
