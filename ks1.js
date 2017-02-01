@@ -74,7 +74,7 @@ $(document).ready(function () {
     });
     $(".1_10").click(function () {
         $("#themes").html("Develop arithmetic skillsExplore properties of numbersExplore ways of writing calculationsSolve problems involving multiplication and division");
-        $("#key").html("Double numbers up to at least 10</br>Halve numbers up to (at least) 20</br>Count (from zero) in equal steps of 2s </br>Count (from zero) in equal steps of 5s </br>Count (from zero) in equal steps of 10s </br>Use concrete objects to solve one-step problems involving multiplication </br>Use concrete objects to solve one-step problems involving division (grouping and sharing)</br>Use pictorial representations to solve one-step problems involving multiplication </br>Use pictorial representations to solve one-step problems involving division (grouping and sharing)</br>Use arrays to solve one-step problems involving multiplication </br>Use arrays to solve one-step problems involving division");
+        $("#key").html("Double numbers up to at least 10</br>Halve numbers up to (at least) 20</br>Count (from zero) in equal steps of 2s </br>Count (from zero) in equal steps of 5s </br>Count (from zero) in equal steps of 10s </br>Use concrete objects to solve one-step problems involving multiplication </br>Use concrete objects to solve one-step problems involving division (grouping)</br>Use concrete objects to solve one-step problems involving division (sharing)</br>Use pictorial representations to solve one-step problems involving multiplication </br>Use pictorial representations to solve one-step problems involving division (grouping)</br>Use pictorial representations to solve one-step problems involving division (sharing)</br>Use arrays to solve one-step problems involving multiplication </br>Use arrays to solve one-step problems involving division");
         var $contents = $(this).text();
         $(".external").children("h3").text($contents + "  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "https://www.dropbox.com/sh/taeg5o4vlpwggui/AAC8sBDMBG6TwzdI3az-tczVa/Stage%201/St1_U8_Mathematical_Movement_WR.pdf?dl=0");
@@ -133,7 +133,7 @@ $(document).ready(function () {
         $("#key").html("Know that there are 60 minutes in one hour </br>Know that there are 24 hours in one day</br>Tell the time using quarter past/to the hour on an analogue clock</br>Write the time using quarter past/to the hour on an analogue clock</br>Tell the time to five minute intervals on an analogue clock </br>Write the time to five minute intervals on an analogue clock</br>Draw the hands on a clock face to show times to five minutes, including quarter past/to the hour</br>Compare and order a selection of times from earliest to latest or vice versa");
         var $contents = $(this).text();
         $(".external").children("h3").text($contents + "  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
-        $(".download").attr("href", "https://www.dropbox.com/sh/taeg5o4vlpwggui/AAAHGhL-sWr_yQxJmSTXwJzXa/Stage%202/St2_U5_Money_WR.pdf?dl=0");
+        $(".download").attr("href", "https://www.dropbox.com/s/jjmz7drq5yjyab7/St2_U5_Time_WR.pdf?dl=0");
     });
     $(".2_6").click(function () {
         $("#themes").html("Develop arithmetic skills</br>Develop knowledge of multiplication tables</br>Explore properties of numbers</br>Explore ways of writing calculations</br>Solve problems involving multiplication and division");
