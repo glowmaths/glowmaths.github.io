@@ -77,7 +77,7 @@ $(document).ready(function () {
         $("#key").html("Double numbers up to at least 10</br>Halve numbers up to (at least) 20</br>Count (from zero) in equal steps of 2s </br>Count (from zero) in equal steps of 5s </br>Count (from zero) in equal steps of 10s </br>Use concrete objects to solve one-step problems involving multiplication </br>Use concrete objects to solve one-step problems involving division (grouping)</br>Use concrete objects to solve one-step problems involving division (sharing)</br>Use pictorial representations to solve one-step problems involving multiplication </br>Use pictorial representations to solve one-step problems involving division (grouping)</br>Use pictorial representations to solve one-step problems involving division (sharing)</br>Use arrays to solve one-step problems involving multiplication");
         var $contents = $(this).text();
         $(".external").children("h3").text($contents + "  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
-        $(".download").attr("href", "https://www.dropbox.com/sh/taeg5o4vlpwggui/AAC8sBDMBG6TwzdI3az-tczVa/Stage%201/St1_U8_Mathematical_Movement_WR.pdf?dl=0");
+        $(".download").attr("href", "https://www.dropbox.com/sh/kfjmydgefcye4uh/AAC5g91CfbwmrQSrEoyuPYgFa/Stage%20and%20Unit%20Assessments/Stage%201?dl=0&preview=St1_U10_Multiplication_Division_WR.pdf");
     });
     $(".1_11").click(function () {
         $("#themes").html("Explore the value of numbersExplore where numbers live in our number systemSolve problems comparing the value of numbersInvestigate number patterns");
