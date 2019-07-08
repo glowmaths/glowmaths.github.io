@@ -493,4 +493,95 @@ $(document).ready(function () {
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
     });
+    $(".6_1").click(function () {
+        $("#statements").html('read, write, order and compare numbers up to 10 000 000 and determine the value of each digit<br>round any whole number to a required degree of accuracy<br>use negative numbers in context, and calculate intervals across zero<br>solve number and practical problems that involve all of the above.<br>');
+        $("#key").html('Represent 7-digit numbers <br>Recognise the value of digits in 7-digit numbers<br>Partition 7-digit numbers in different ways<br>Read 7-digit numbers in words and write using numerals<br>Read 7-digit numbers in numerals and write in words<br>Read 7-digit numbers in words and write using numerals including zero as a place holder<br>Read 7-digit numbers in numerals and write in words, including zero as a place holder<br>Identify 7-digit numbers  on a number line<br>Represent 7-digit numbers on a number line<br>Multiply decimals (up to 3dp) by 10<br>Multiply decimals (up to 3dp) by 100<br>Multiply decimals (up to 3dp) by 1000<br>Divide decimals (up to 3dp) by 10 <br>Divide decimals (up to 3dp) by 100<br>Divide decimals (up to 3dp) by 1000<br>Understand and use negative numbers when working in context, such as temperature<br>Calculate intervals across zero<br>Find common multiples of two numbers<br>Find common factors of two numbers<br>Identify prime numbers<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_2").click(function () {
+        $("#statements").html('solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why<br>');
+        $("#key").html('Carry out addition calculations  involving numbers up to 4 digits using mental strategies<br>Carry out addition calculations mentally involving numbers up to 4 digits using writen  and mental methods<br>Carry out subtraction calculations  involving numbers up to 4 digits using mental strategies<br>Carry out addition calculations mentally involving numbers up to 4 digits using writen  and mental methods<br>Solve multi-step problems involving addition and/or subtraction<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_3").click(function () {
+        $("#statements").html('multiply multi-digit numbers up to 4 digits by a two-digit whole number using the formal written method of long multiplication<br>divide numbers up to 4 digits by a two-digit whole number using the formal written method of long division, and interpret remainders as whole number remainders, fractions, or by rounding, as appropriate for the context<br>divide numbers up to 4 digits by a two-digit number using the formal written method of short division where appropriate, interpreting remainders according to the context<br>perform mental calculations, including with mixed operations and large numbers<br>solve problems involving addition, subtraction, multiplication and division<br>use estimation to check answers to calculations and determine, in the context of a problem, an appropriate degree of accuracy.<br>');
+        $("#key").html('Multiply a four-digit number by a two-digit number using long multiplication<br>Solve multi-step problems involving addition and/or subtraction and multiplication<br>Divide a three-digit number by a two-digit number using short division with no remainder<br>Divide a three-digit number by a two-digit number using short division with a whole number remainder<br>Divide a three-digit number by a two-digit number using short division with a remainder expressed as a fraction<br>Divide a three-digit number by a two-digit number using short division with a remainder rounding to two decimal places<br>Divide a four-digit number by a two-digit number using short division with no remainder<br>Divide a four-digit number by a two-digit number using short division with a whole number remainder<br>Divide a four-digit number by a two-digit number using short division with a remainder expressed as a fraction<br>Divide a four-digit number by a two-digit number using short division with a remainder rounding to two decimal places<br>Solve problems involving division, understanding how to interpret the remainder to a division problem appropriately for the context<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_4").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Use coordinates to describe the position of a point in all four quadrants<br>Use coordinates to plot the position of a point in any of the four quadrants<br>Draw and translate simple shapes<br>Carry out a reflection using one of the axes as a mirror line<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_5").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Use common factors to simplify fractions<br>Use common multiples to find equivalent fractions<br>Compare proper fractions<br>Compare proper fractions, including fractions > 1<br>Order proper fractions <br>Order fractions, inlcuding fractions > 1<br>Calculate decimal equivalents of fifths, eighths and tenths<br>Know simple fractions and decimal equivalences for 10%, 20%, 25%, 50%, 75%, 100%<br>Find equivalencies between simple fractions, decimals and percentages<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_6").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Find missing angles where they meet at a point<br>Find missing angles where they meet on a straight line<br>Find missing angles where they are vertically opposite<br>Find unknown angles in a triangle<br>Find unknown angles in an isosceles triangle when only one angle is known<br>Find unknown angles in a quadrilateral<br>Find unknown angles in regular polygons<br>Use known facts - at a point, straight line, vertically opposite and angles in polygons - to find missing angles<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_7").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Classify 2D shapes using given categories; e.g. number of sides, symmetry<br>Draw 2-D shapes given angles<br>Draw 2-D shapes given dimensions and/or angles<br>Recognise and describe 3-D shapes<br>Classify 3-D shapes including cylinders, cones and spheres<br>Draw nets of 3-D shapes<br>Construct diagrams of 3-D shapes on isometric paper<br>Know the names and relationships of the parts a circle<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_8").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Carry out calculations involving mixture of addition and subtraction<br>Carry out calculations involving a mixture of multiplication and division<br>Carry out calculations involving mixture of multiplication and addition/subtraction<br>Carry out calculations involving mixture of division and addition/subtraction<br>Carry out calculations involving all four operations<br>Carry out calculations involving mixture of addition and/or subtraction and indices<br>Carry out calculations involving a mixture of multiplication and/or division and indices<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_9").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Add proper fractions (denominators not multiples of each other) within the whole<br>Add proper fractions (denominators not multiples of each other) beyond the whole (mixed number answer)<br>Add mixed number and proper fractions (denominators not multiples of each other) fractions within whole (mixed number answer)<br>Add mixed and proper fractions (denominators not multiples of each other) fractions beyond the whole (mixed number answer)<br>Add mixed numbers (same denominators), fractions within and beyond the whole (mixed number answer)<br>Add mixed numbers (denominators multiples of each other) fractions within the whole (mixed number answer)<br>Add mixed numbers (denominators multiples of each other) fractions beyond the whole (mixed number answer)<br>Add mixed numbers (denominators not multiples of each other) fractions within the whole (mixed number answer)<br>Add mixed numbers (denominators not multiples of each other) fractions beyond the whole (mixed number answer)<br>Subtract proper fractions (denominators not multiples of each other) within the whole<br>Subtract proper fractions from mixed numbers, fractions within the whole (denominators not multiples of each other) <br>Subtract proper fractions from mixed numbers, fractions across the whole (denominators not multiples of each other)<br>Subtract mixed number from mixed numbers (same denominators), fractions within the whole<br>Subtract mixed number from mixed numbers (same denominators), fractions across the whole<br>Subtract mixed number from mixed numbers (denominators multiples of each other), fractions within the whole<br>Subtract mixed number from mixed numbers (denominators multiples of each other), fractions across the whole<br>Subtract mixed number from mixed numbers (denominators not multiples of each other), fractions within the whole<br>Subtract mixed number from mixed numbers (denominators not multiples of each other), fractions across the whole<br>Multiply simple pairs of proper fractions<br>Divide unit fraction by whole number<br>Divide fraction by whole number (numerator = divisor)<br>Divide fraction by whole number (numerator = multiple of divisor)<br>Divide fraction by whole number (numerator not a multiple of divisor)<br>Multiply O.t by O<br>Multiply O.th by O<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_10").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Find 10%, 25%, 50% and 75% of an amount <br>Find simple percentages of an amount (mulitples of 10% and 5%)<br>Find complex percentages of an amount (eg 17%, 28%, 63%))<br>Solve problems involving the use of percentages to make comparisons<br>Solve simple ratio problems - find the value of the parts, given the whole<br>Solve simple ratio problems - find the value of the whole and parts, given one part<br>Use a scale factor to solve problems involving similar shapes <br>Use scales to solve problems involving maps, such as finding distances<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_11").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Convert between non-adjacent metric units length and mass from the smaller unit to the larger unit; e.g. centimetres to kilometres<br>Convert between non-adjacent metric units length and mass from the larger unit to the smaller unit; e.g. kilometres and centimetres<br>Convert between non-adjacent time units; e.g. hours to seconds<br>Solve problems involving converting between measures including miles and km<br>Recognise that shapes with the same areas can have different perimeters and vice versa<br>Calculate the area of a parallelogram<br>Calculate the area of a triangle<br>Calculate the volume of cuboid, including cubes<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_12").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html('Use simple formulae expressed in words (e.g. time needed to cook a chicken: allow 20 minutes plus 40 minutes per kilogram)<br>Know the basic rules of algebraic notation<br>Find all combinations of two variables that solve a missing number problem with two unknowns<br>Find pairs of numbers that satisfy an equation with two unknowns e.g. a + b = 15<br>Express and solve missing number problems algebraically<br>Recognise and describe a linear sequence<br>Find the next terms in a linear sequence<br>Find a missing term in a linear sequence<br>Generate a linear sequence from its description<br>');
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_13").click(function () {
+        $("#statements").html('<br>');
+        $("#key").html("Interpret pie charts <br>Construct a pie chart by measuring angles<br>Understand the meaning of 'average' and calculate the mean of a set of discrete data<br>Interpret the mean of a set of discrete data<br>");
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
 });
