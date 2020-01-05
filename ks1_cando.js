@@ -152,7 +152,7 @@
     });
     $(".2_6").click(function () {
         $("#statements").html('choose and use appropriate standard units to estimate and measure length/height in any direction (m/cm); mass (kg/g); temperature (°C); capacity (litres/ml) to the nearest appropriate unit, using rulers, scales, thermometers and measuring vessels<br>compare and order lengths, mass, volume/capacity and record the results using >, < and =<br>');
-        $("#key").html('Read scales in divisions of ones and twos, <br>Read scales in divisions of fives and tens<br>Read scales where not all numbers on the scale are given and estimate points in between <br>Measure a given length choosing the appropriate equipment <br>Measure a given height choosing the appropriate equipment <br>Create a line of a given length <br>Estimate length and height<br>Compare lengths using the language of longer than and shorter than, < and ><br>Compare heights using the language of taller than and shorter than, < and ><br>Order lengths and heights<br>Measure a given mass choosing the appropriate equipment <br>Create a given mass choosing the appropriate equipment <br>Estimate the mass of objects<br>Compare mass of objects, > and <<br>Order objects by mass<br>Measure a given capacity choosing the appropriate equipment <br>Estimate a given capacity <br>Compare capacity, > and <<br>Order capacities<br>Measure temperature<br>Compare temperature using the language of hotter than and colder than<br>Order temperatures<br>Solve addition and subtraction problems using measures <br>Solve multiplication and division problems using measures<br>');
+        $("#key").html('Read scales in divisions of ones and twos<br>Read scales in divisions of fives and tens<br>Measure the mass of objects (kg) <br>Measure the mass of objects (g) <br>Estimate the mass of objects <br>Compare the mass of objects <br>Order the mass of objects <br>Measure lengths (m) <br> Measure lengths (cm) <br>Estimate lengths <br>Compare lengths <br>Order lengths<br> Measure heights (cm) <br>Estimate heights <br>Compare heights<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
@@ -214,8 +214,8 @@
         $(".download").attr("href", "#");
     });
     $(".3_4").click(function () {
-        $("#statements").html('recognise, find and write fractions of a discrete set of objects: unit fractions and nonunit fractions with small denominators<br>add and subtract fractions with the same denominator within one whole<br>');
-        $("#key").html('Find unit fractions of a number of objects (5,8,10)<br>Find unit fractions of an amount<br>Find non-unit fractions of a number of objects (2,3,5,8,10)<br>Find non-unit fractions of an amount<br>Add fractions with the same denominator within one whole<br>Subtract fractions with the same denominator within one whole<br>Solve problems involving fractions and decimals<br>');
+        $("#statements").html('Recognise and use fractions as numbers, unit fractions and non-unit fractions with small denominators<br>Recognise and show, using diagrams, equivalent fractions with small denominators<br>Compare and order unit fractions and fractions with the same denominators<br>Solve problems that involve all of the above<br>');
+        $("#key").html('Recognise and represent unit fractions<br>Recognise and represent non-unit fractions<br>Compare two proper fractions which have the same denominator<br>Order a set of proper fractions which have the same denominator<br>Compare two unit fractions<br>Order a set of unit fractions<br>Compare two proper fractions which have the same numerator > 1 (small denominator)<br>Order a set of proper fractions which have the same numerator > 1 (small denominator)<br>Recognise and show equivalent proper fractions (denominators multiples of each other)<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
@@ -536,8 +536,8 @@
         $(".download").attr("href", "#");
     });
     $(".6_5").click(function () {
-        $("#statements").html('use common factors to simplify fractions; use common multiples to express fractions in the same denomination <br>compare and order fractions, including frations > 1 <br>associate a fraction with division and calculate decimal fraction equivalents for a simple fraction <br>recall and use equivalences between simple fractions, decimals and percentages including in different contexts<br>');
-        $("#key").html('Use common factors to simplify fractions<br>Use common multiples to find equivalent fractions<br>Compare proper fractions<br>Compare proper fractions, including fractions > 1<br>Order proper fractions <br>Order fractions, inlcuding fractions > 1<br>Calculate decimal equivalents of fifths, eighths and tenths<br>Know simple fractions and decimal equivalences for 10%, 20%, 25%, 50%, 75%, 100%<br>Find equivalencies between simple fractions, decimals and percentages<br>');
+        $("#statements").html('Multiply one-digit numbers with up to two decimal places by whole numbers<br>');
+        $("#key").html('Multiply O.t by ones<br>Multiply O.th by ones<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
@@ -564,28 +564,28 @@
         $(".download").attr("href", "#");
     });
     $(".6_9").click(function () {
-        $("#statements").html('<br>');
+        $("#statements").html('Add and subtract fractions with different denominators and mixed numbers using the concept of equivalent fractions<br>Multiply simple pairs of proper fractions, writing the answer in its simplest form<br>Divide proper fractions by whole numbers<br>');
         $("#key").html('Add proper fractions (denominators not multiples of each other) within the whole<br>Add proper fractions (denominators not multiples of each other) beyond the whole (mixed number answer)<br>Add mixed number and proper fractions (denominators not multiples of each other) fractions within whole (mixed number answer)<br>Add mixed and proper fractions (denominators not multiples of each other) fractions beyond the whole (mixed number answer)<br>Add mixed numbers (same denominators), fractions within and beyond the whole (mixed number answer)<br>Add mixed numbers (denominators multiples of each other) fractions within the whole (mixed number answer)<br>Add mixed numbers (denominators multiples of each other) fractions beyond the whole (mixed number answer)<br>Add mixed numbers (denominators not multiples of each other) fractions within the whole (mixed number answer)<br>Add mixed numbers (denominators not multiples of each other) fractions beyond the whole (mixed number answer)<br>Subtract proper fractions (denominators not multiples of each other) within the whole<br>Subtract proper fractions from mixed numbers, fractions within the whole (denominators not multiples of each other) <br>Subtract proper fractions from mixed numbers, fractions across the whole (denominators not multiples of each other)<br>Subtract mixed number from mixed numbers (same denominators), fractions within the whole<br>Subtract mixed number from mixed numbers (same denominators), fractions across the whole<br>Subtract mixed number from mixed numbers (denominators multiples of each other), fractions within the whole<br>Subtract mixed number from mixed numbers (denominators multiples of each other), fractions across the whole<br>Subtract mixed number from mixed numbers (denominators not multiples of each other), fractions within the whole<br>Subtract mixed number from mixed numbers (denominators not multiples of each other), fractions across the whole<br>Multiply simple pairs of proper fractions<br>Divide unit fraction by whole number<br>Divide fraction by whole number (numerator = divisor)<br>Divide fraction by whole number (numerator = multiple of divisor)<br>Divide fraction by whole number (numerator not a multiple of divisor)<br>Multiply O.t by O<br>Multiply O.th by O<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
     });
     $(".6_10").click(function () {
-        $("#statements").html('<br>');
+        $("#statements").html('Solve problems involving the relative sizes of two quantities where missing values can be found by using integer multiplication and division facts<br>Solve problems involving the calculation of percentages and the use of percentages for comparison<br>Solve problems involving similar shapes where the scale factor is known or can be found<br>Solve problems involving unequal sharing and grouping using knowledge of fractions and multiples<br>');
         $("#key").html('Find 10%, 25%, 50% and 75% of an amount <br>Find simple percentages of an amount (mulitples of 10% and 5%)<br>Find complex percentages of an amount (eg 17%, 28%, 63%))<br>Solve problems involving the use of percentages to make comparisons<br>Solve simple ratio problems - find the value of the parts, given the whole<br>Solve simple ratio problems - find the value of the whole and parts, given one part<br>Use a scale factor to solve problems involving similar shapes <br>Use scales to solve problems involving maps, such as finding distances<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
     });
     $(".6_11").click(function () {
-        $("#statements").html('<br>');
-        $("#key").html('Convert between non-adjacent metric units length and mass from the smaller unit to the larger unit; e.g. centimetres to kilometres<br>Convert between non-adjacent metric units length and mass from the larger unit to the smaller unit; e.g. kilometres and centimetres<br>Convert between non-adjacent time units; e.g. hours to seconds<br>Solve problems involving converting between measures including miles and km<br>Recognise that shapes with the same areas can have different perimeters and vice versa<br>Calculate the area of a parallelogram<br>Calculate the area of a triangle<br>Calculate the volume of cuboid, including cubes<br>');
+        $("#statements").html('Solve problems involving the calculation and conversion of units of measure, using decimal notation up to 3 decimal places where appropriate<br>Use, read, write and convert between standard units, converting measurements of length, mass, volume, and time from a smaller unit of measure to a larger unit and vice versa using decimal notation up to 3 decimal places<br>Convert between miles and km<br>');
+        $("#key").html('Convert between non-adjacent metric units length and mass from the smaller unit to the larger unit; e.g. centimetres to kilometres<br>Convert between non-adjacent metric units length and mass from the larger unit to the smaller unit; e.g. kilometres and centimetres<br>Convert between non-adjacent time units; e.g. hours to seconds<br>Solve problems involving converting between measures including miles and km<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
     });
     $(".6_12").click(function () {
-        $("#statements").html('<br>');
+        $("#statements").html('Use simple formulae<br>Generate and describe linear number sequences<br>Express missing number problems algebraically<br>Find pairs of numbers that satisfy an equation with two unknowns<br>Enumerate possiblities of combinations of two variables<br>');
         $("#key").html('Use simple formulae expressed in words (e.g. time needed to cook a chicken: allow 20 minutes plus 40 minutes per kilogram)<br>Know the basic rules of algebraic notation<br>Find all combinations of two variables that solve a missing number problem with two unknowns<br>Find pairs of numbers that satisfy an equation with two unknowns e.g. a + b = 15<br>Express and solve missing number problems algebraically<br>Recognise and describe a linear sequence<br>Find the next terms in a linear sequence<br>Find a missing term in a linear sequence<br>Generate a linear sequence from its description<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
@@ -594,6 +594,13 @@
     $(".6_13").click(function () {
         $("#statements").html('<br>');
         $("#key").html("Interpret pie charts <br>Construct a pie chart by measuring angles<br>Understand the meaning of 'average' and calculate the mean of a set of discrete data<br>Interpret the mean of a set of discrete data<br>");
+        var $contents = $(this).text();
+        $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
+        $(".download").attr("href", "#");
+    });
+    $(".6_14").click(function () {
+        $("#statements").html('Recognise that shapes with the same areas can have different perimeters and vice versa<br>Recognise when it is possible to use formulae for area and volume of shapes<br>Calculate the area of parallelograms and triangles<br>Calculate, estimate and compare volume of cubes and cuboids using standard units including cubic cm and cubic m and extending to other units.<br>');
+        $("#key").html('Recognise that shapes with the same areas can have different perimeters and vice versa<br>Calculate the area of a parallelogram<brCalculate the area of a triangle<br>Calculate the volume of cuboids, including cubes<br>');
         var $contents = $(this).text();
         $(".external").children("h3").text($contents+"  -   Fluency, Reasoning and Solving Problems Exemplification (.pdf)");
         $(".download").attr("href", "#");
